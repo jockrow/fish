@@ -5,5 +5,11 @@ automatic enter at fish shell:
 In the fish shell execute:
 ./02_installOmf.sh
 
+In the fish shell execute:
+./03_changeSettingsLinux.sh
+
+to settings for linux execute:
+settings_linux/changeSettings.sh
+
 (Optional) To remove Omf Modules
 removeOmfModules.sh
