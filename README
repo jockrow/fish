@@ -1,0 +1,9 @@
+execute:
+./01_installFish.sh
+automatic enter at fish shell:
+
+In the fish shell execute:
+./02_installOmf.sh
+
+(Optional) To remove Omf Modules
+removeOmfModules.sh
