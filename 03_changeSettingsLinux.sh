@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-cat settings_linux/.bash_profile >> ~/.bash_profile
+cat settings_linux/.bash_profile >> ~/.config/fish/conf.d/omf.fish

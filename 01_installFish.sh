@@ -5,12 +5,12 @@ sudo apt install fish
 curl -L https://get.oh-my.fish | fish
 curl -L https://get.oh-my.fish > install
 
-if ! command -v peco &> /dev/null; then
-	sudo apt-get install peco
+if ! command -v exa &> /dev/null; then
+	sudo apt-get install exa
 fi
 
-if ! command -v git &> /dev/null; then
-	sudo apt-get install git
+if ! command -v peco &> /dev/null; then
+	sudo apt-get install peco
 fi
 
 fish install --path=~/.local/share/omf --config=~/.config/omf
