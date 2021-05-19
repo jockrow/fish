@@ -1,6 +1,6 @@
 #!/usr/bin/fish
 
-omf install https://github.com/zephraph/zephish
+#omf install https://github.com/zephraph/zephish
 omf install bobthefish
 omf theme bobthefish
 

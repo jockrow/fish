@@ -5,6 +5,10 @@ sudo apt install fish
 curl -L https://get.oh-my.fish | fish
 curl -L https://get.oh-my.fish > install
 
+if ! command -v ranger &> /dev/null; then
+	sudo apt-get install ranger
+fi
+
 if ! command -v exa &> /dev/null; then
 	sudo apt-get install exa
 fi
