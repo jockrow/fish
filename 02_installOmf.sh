@@ -1,10 +1,11 @@
 #!/usr/bin/fish
 
 #omf install https://github.com/zephraph/zephish
+omf install https://github.com/jhillyerd/plugin-git
 omf install bobthefish
 omf theme bobthefish
+omf theme z
 
-omf remove zephish
+#omf remove zephish
 
 omf install peco
-printf "\nfunction fish_user_key_bindings \n  bind \\\cr 'peco_select_history (commandline -b)' \nend\n" >> ~/.config/fish/conf.d/omf.fish
