@@ -14,7 +14,12 @@ if ! command -v ranger &> /dev/null; then
 fi
 
 if ! command -v exa &> /dev/null; then
-	sudo apt-get install exa
+	# sudo apt-get install exa
+	export EXA_VERSION=0.9.0
+	curl -Lo exa.zip "https://github.com/ogham/exa/releases/download/v0.9.0/exa-linux-x86_64-${EXA_VERSION}.zip"
+	unzip -q exa.zip 
+	mv exa-linux-x86_64 /bin/exa
+	rm -rf exa.zip
 fi
 
 if ! command -v peco &> /dev/null; then
